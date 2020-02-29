@@ -68,6 +68,9 @@ body {
 .aboutImage {
 	max-width: 100%;
 	transition: all 1s;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	
 }
 
@@ -75,15 +78,14 @@ body {
 	transform: scale(1.1);
 }
 
+
+
 .skillsSection,
 .contactSection {
 	background-color:rgb(62, 45, 94);
 	color: #fff;
 }
 
-#about {
-
-}
 
 .skill {
 	text-align: center;
