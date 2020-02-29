@@ -2,7 +2,7 @@
   position: relative;
 }
 #slides .slides-container {
-  display: none;
+  display: flex;
 }
 #slides .scrollable {
   *zoom: 1;
