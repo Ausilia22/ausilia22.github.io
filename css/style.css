@@ -79,13 +79,13 @@ body {
 
 .skillsSection,
 .contactSection {
-	background-color:rgba(152, 99, 255, 1);
+	background-color:rgb(99, 30, 238);
 	color: #fff;
 }
 
 .skill {
 	text-align: center;
-	margin-left: 10px;
+	margin-left: 0px;
 }
 
 
@@ -115,7 +115,7 @@ body {
 }
 
 .myskills {
-	width: 140px;
+	width: 200px;
     height: 140px;
 }
 
@@ -155,7 +155,7 @@ body {
 	font-size: 56px;
 	margin-bottom: 10px;
 	font-weight: 400;
-	color: rgba(152, 99, 255, 1);
+	color: rgb(99, 30, 238);
 }
 
 .squareContent h3 {
@@ -186,7 +186,7 @@ body {
 
 .contactButton:hover {
 	text-decoration: none;
-	color: rgba(152, 99, 255, 1);
+	color: rgb(99, 30, 238);
 	background-color: #fff;
 }
 
@@ -203,8 +203,8 @@ body {
 }
 
 .filter .current {
-	background-color: rgba(152, 99, 255, 1);;
-	border-color:rgba(152, 99, 255, 1);
+	background-color: rgb(99, 30, 238);
+	border-color:rgb(99, 30, 238);
 	color: #fff;
 }
 
@@ -268,7 +268,7 @@ body {
 .items a {
 	width: 40px;
     height: 40px;
-    background-color: rgba(152, 99, 255, 1);
+    background-color: rgb(99, 30, 238);
     position: relative;
     display: inline-block;
 
@@ -342,7 +342,7 @@ body {
 }
 
 #navigation {
-	background-color: rgba(152, 99, 255, 1);
+	background-color: rgb(99, 30, 238);
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
