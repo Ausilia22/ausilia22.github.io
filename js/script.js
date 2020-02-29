@@ -18,7 +18,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Junior Front-End Developer.", "Web Developer.", "Student."],
+		strings: ["Front-End Developer.", "Web Developer.", "Student."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,

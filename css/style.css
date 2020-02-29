@@ -74,6 +74,7 @@ body {
 	
 }
 
+
 .aboutImage:hover {
 	transform: scale(1.1);
 }
@@ -231,9 +232,13 @@ body {
 
 .items li {
 	display: inline-block;
-	padding: 5px;
+	padding: 5px; 
+
 }
 
+.contactSection {
+	background-image: url(../portfolio/img/backgrounds.png);
+}
 .itemsContainer {
 	width: 100%;
 }
