@@ -3,6 +3,7 @@ body {
     color: #333;
     background-color: #fff;
 	letter-spacing: 1px;
+
 	
 }
 
@@ -66,6 +67,7 @@ body {
 
 
 .aboutImage {
+
 	max-width: 100%;
 	transition: all 1s;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -109,7 +111,7 @@ body {
 }
 
 .chart .percent {
-	color: #000;
+	color: rgb(63, 193, 245);
     line-height: 152px;
     display: inline-block;
     font-size: 35px;
@@ -181,15 +183,23 @@ body {
 }
 
 .contactButton {
-	color: #fff;
+	color: black;
+	font-weight: bold;
     padding: 15px 20px;
     display: inline-block;
-    margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 2px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(63, 193, 245);
+	background-color: rgb(63, 193, 245);
+	border-radius: 2px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	transition: 1s;
 }
 
 .contactButton:hover {
+	transform: scale(1.1);
 	text-decoration: none;
 	color:rgb(62, 45, 94);
 	background-color: #fff;
@@ -400,11 +410,53 @@ body {
 }
 
 
+.resume {
 
+	color: #fff;
+	padding: 30px 1px;
+	font-size: 17px;
+	background: url("https://i.pinimg.com/originals/d6/24/14/d624149b39c5403c916f014941140d1a.gif") top no-repeat;
+	background-color:rgb(62, 45, 94);
 
+}
 
+.skillsSection {
+	border: rgb(63, 193, 245) solid;
+	border-width: 5px;
+	border-radius: 5px;
+}
 
+.contactSection {
+	
+	border: rgb(63, 193, 245) solid;
+	border-width: 5px;
+	border-radius: 5px;
+}
 
+.btn2 {
+	color: black;
+	font-weight: bold;
+    padding: 10px 15px;
+	display: inline-block;
+	margin-top: 1px;
+	background-color: rgb(63, 193, 245);
+    border: 1px solid rgb(63, 193, 245);
+	border-radius: 2px; 
+	transition: 1s;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.btn2:hover {
+	transform: scale(1.1);
+	text-decoration: none;
+	color:rgb(62, 45, 94);
+	background-color: #fff;
+	border-color:black;
+	
+
+}
 
 
 
