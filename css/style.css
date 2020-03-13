@@ -322,17 +322,20 @@ body {
 	opacity: 1;
 }
 
-.items .openButton {
-	float: left;
-	left: -200px;
-}
+
 
 .items .projectLink {
 	float: right;
 	right: -200px;
 }
 
-.items .item:hover .openButton {
+.items .codeLink {
+	float: left;
+	left: -200px;
+}
+
+
+.items .item:hover .codeLink {
 	left: 0px;
 }
 
